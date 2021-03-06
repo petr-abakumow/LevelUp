@@ -1,0 +1,10 @@
+.link-button__button {
+    background-color: red;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px 150px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

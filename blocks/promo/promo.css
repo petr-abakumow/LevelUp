@@ -1,0 +1,8 @@
+@import url(./__container/promo__container.css);
+@import url(./__title/promo__title.css);
+@import url(./__image/promo__image.css);
+
+.promo {
+    width: 100%;
+    position: relative;
+}

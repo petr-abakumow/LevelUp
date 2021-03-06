@@ -1,0 +1,11 @@
+@import url(./__button/link-button__button.css);
+
+.link-button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 0;
+    margin: 0 auto 0;
+    text-decoration: none;
+}
