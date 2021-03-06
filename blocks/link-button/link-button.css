@@ -8,4 +8,6 @@
     padding: 0;
     margin: 0 auto 0;
     text-decoration: none;
+    width: 100%;
+    max-width: 500px;
 }
