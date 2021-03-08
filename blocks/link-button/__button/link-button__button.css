@@ -8,3 +8,9 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 550px) {
+    .link-button__button {
+        margin-top: 30px;
+    }
+}
