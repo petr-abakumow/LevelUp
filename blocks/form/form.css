@@ -1,0 +1,14 @@
+@import url(./__container/form__container.css);
+@import url(./__title/form__title.css);
+@import url(./__info/form__info.css);
+@import url(./__old/form__old.css);
+@import url(./__new/form__new.css);
+@import url(./__form/form__form.css);
+@import url(./__input-name/form__input-name.css);
+@import url(./__input-namber/form__input-namber.css);
+@import url(./__button/form__button.css);
+
+.form {
+    width: 100%;
+    background: linear-gradient(-45deg, #f0bf9e, #f353d0, green);
+}

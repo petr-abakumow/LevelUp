@@ -1,0 +1,9 @@
+.promo__image_mod {
+    width: 100%;
+    max-width: 200px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 0 auto;
+}

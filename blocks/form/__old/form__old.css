@@ -1,0 +1,6 @@
+.form__old {
+    font-size: 15px;
+    color: rgb(71, 69, 69);
+    text-decoration: line-through;
+    margin: 20px 0 0 0;
+}

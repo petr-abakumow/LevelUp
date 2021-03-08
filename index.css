@@ -12,3 +12,19 @@
 @import url(./blocks/item/item.css);
 @import url(./blocks/reviews/reviews.css);
 @import url(./blocks/reviews-item/reviews-item.css);
+@import url(./blocks/promo/__image/_mod/promo__image_mod.css);
+@import url(./blocks/promo-list/_mod/promo-list_mod.css);
+@import url(./blocks/promo/__container/_mod/promo__container_mod.css);
+@import url(./blocks/promo-about/promo-about.css);
+@import url(./blocks/scroll/scroll.css);
+@import url(./blocks/link-button/_mod/link-button_mod.css);
+@import url(./blocks/promo/_mod/promo_mod.css);
+@import url(./blocks/form/form.css);
+@import url(./blocks/timer/timer.css);
+
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s;
+}

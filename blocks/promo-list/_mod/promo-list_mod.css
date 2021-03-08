@@ -1,0 +1,13 @@
+.promo-list_mod {
+    flex-direction: row;
+    width: 100%;
+    max-width: 1024px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

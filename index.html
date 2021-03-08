@@ -21,7 +21,7 @@
                     <li class="promo-list__item">Розовый</li>
                     <li class="promo-list__item">Твёрдый</li>
                 </ul>
-                <a href="" class="link-button"><button class="link-button__button">заказать</button></a>
+                <a href="#forma" class="link-button"><button type="button" class="link-button__button">заказать</button></a>
             </div>
         </section>
         <section class="structure">
@@ -70,6 +70,7 @@
                     </div>
                 </div>
             </div>
+            <a href="#forma" class="link-button"><button type="button" class="link-button__button">заказать</button></a>
         </section>
         <section class="reviews">
             <div class="reviews__container">
@@ -90,7 +91,36 @@
                 </div>
             </div>
         </section>
-        <section class="promo"></section>
-        <section class="form"></section>
+        <section class="promo promo_mod">
+            <div class="promo__container promo__container_mod">
+                <img src="./images/doctor.png" alt="фото продукта" class="promo__image promo__image_mod">
+                <p class="promo-about">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <ul class="promo-list promo-list_mod">
+                    <li class="promo-list__item">Большой</li>
+                    <li class="promo-list__item">Розовый</li>
+                    <li class="promo-list__item">Твёрдый</li>
+                </ul>
+                <a href="#forma" class="link-button link-button_mod"><button type="button" class="link-button__button">заказать</button></a>
+            </div>
+        </section>
+        <section class="form">
+            <div class="form__container">
+                <h2 class="form__title">LevelUp</h2>
+                <div class="timer"></div>
+                <div class="form__info">
+                    <img src="./images/prod.png" alt="фото продукта" class="promo__image">
+                    <p class="form__old">300</p>
+                    <p class="form__new">200</p>
+                </div>
+                <form class="form__form" method="POST">
+                    <a name="forma"></a>
+                    <input id="input" minlength="2" maxlength="30" required type="text" class="form__input-name" placeholder="Имя">
+                    <input id="input" minlength="2" maxlength="30" required onkeyup="this.value = this.value.replace (/\D/gi, '').replace (/^0+/, '')" class="form__input-namber" placeholder="Телефон">
+                    <button class="form__button" aria-label="Сохранить внесённые изиенения" type="button">Сохранить</button>
+                </form>
+            </div>
+        </section>
     </body>
 </html>

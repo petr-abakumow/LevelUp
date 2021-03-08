@@ -1,0 +1,12 @@
+.form__button {
+    margin: 120px 36px 36px;
+    padding: 15px 0 15px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    background-color: rgb(168, 20, 20);
+    border-radius: 2px;
+    border: none;
+}

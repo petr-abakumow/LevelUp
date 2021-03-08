@@ -4,4 +4,8 @@
 .structure {
     width: 100%;
     background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    box-sizing: border-box;
 }

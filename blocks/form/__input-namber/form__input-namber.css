@@ -1,0 +1,19 @@
+.form__input-namber {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 70px auto 0;
+    width: 100%;
+    max-width: max-content;
+    font-size: 14px;
+    line-height: 17px;
+    height: 30px;
+    display: flex;
+}
+
+.form__input-namber:focus::placeholder {
+    transform: translate(60%, -10px);
+  }
+
+  .form__input-namber:focus {
+    outline: none;
+  }
