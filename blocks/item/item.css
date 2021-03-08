@@ -1,0 +1,10 @@
+@import url(./__box/item__box.css);
+@import url(./__image/item__image.css);
+@import url(./__title/item__title.css);
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

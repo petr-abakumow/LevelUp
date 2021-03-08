@@ -1,0 +1,5 @@
+@import url(./__container/reviews__container.css);
+
+.reviews {
+    background: linear-gradient(45deg, #473021, #0c84bb);
+}

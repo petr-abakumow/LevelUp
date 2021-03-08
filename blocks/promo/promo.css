@@ -5,4 +5,6 @@
 .promo {
     width: 100%;
     position: relative;
+    padding: 0 10px;
+    box-sizing: border-box;
 }

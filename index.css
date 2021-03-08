@@ -8,3 +8,7 @@
 @import url(./blocks/link-button/link-button.css);
 @import url(./blocks/video/video.css);
 @import url(./blocks/structure/structure.css);
+@import url(./blocks/structure-container/structure-container.css);
+@import url(./blocks/item/item.css);
+@import url(./blocks/reviews/reviews.css);
+@import url(./blocks/reviews-item/reviews-item.css);

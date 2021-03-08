@@ -1,5 +1,7 @@
+@import url(./__item/structure__item.css);
+@import url(./__image/structure__image.css);
+
 .structure {
     width: 100%;
-    height: 500px;
-    background-color: white;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
 }

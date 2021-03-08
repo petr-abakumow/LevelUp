@@ -1,0 +1,6 @@
+.item__image {
+    width: 100%;
+    max-width: 70px;
+    object-fit: contain;
+    margin: auto;
+}
